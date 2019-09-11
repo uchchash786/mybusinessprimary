@@ -1,0 +1,139 @@
+
+body{
+font-family: 'Fira Sans', sans-serif;
+}
+h1{
+font-family: 'Fira Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h3{
+  font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size:1.3rem;
+}
+p{
+  font-family: 'Fira Sans', sans-serif;
+font-weight:400;
+font-size: .9rem;
+color: #8f8f8f;
+}
+#title{
+  background-color: #ff4c68;  color: white;
+
+}
+.nav-div{
+  padding: 3% 15%;
+}
+/* nabigation bar */
+.navbar{
+  padding:0 0 4.5rem 0;
+  margin-bottom: 3.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding:0 .6rem ;
+}
+.nav-link{
+font-family: 'Fira Sans', sans-serif;
+  font-size: .8rem;
+  font-weight: 100;
+  text-align: left;
+
+}
+.download-button{
+  margin: 5% 3% 5% 0%;
+}
+.title-image{
+  width: 80%;position: absolute;
+  transform: rotate(25deg);
+  padding-left: 2rem;
+
+}
+@media screen and (max-width:995px){
+  .title-image{
+    position: static;
+    transform: rotate(0deg);
+    padding: 2rem;
+  }
+  #title{
+    text-align: center;
+  }
+}
+#features{
+  text-align:center;
+padding:7% 15% ;
+ background-color: #fff;
+position: relative;
+z-index: 1;
+}
+
+.icon{
+  color:#ef8172;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonial{
+text-align: center;
+  background-color: #ef8172;
+}
+.inside{
+  padding: 7% 25% 0;
+}
+.Pebbles{
+  width: 20%;
+  border-radius: 100%;
+  padding: .8rem;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.press-icon{
+  width: 15%;
+  padding: 1rem;
+}
+#pricing{
+  text-align: center;
+  padding: 6rem;
+}
+.pricing-colum {
+  padding:3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: center;
+  padding: 5rem 0 ;
+}
+.bottom-note{
+  font-size: 2rem;
+  font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    padding: 1rem;
+}
+#footer{
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff;
+}
+.bottom-icon {
+  padding: .5rem;
+  color:#757575;
+}
+.bottom-icon:hover{
+color: #ff4c68;
+}
+.copyright{
+  padding-top: 1rem;
+}
